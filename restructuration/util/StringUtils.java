@@ -1,6 +1,6 @@
-package fr.laposte.serca.u15.restructuration.util;
+package restructuration.util;
 
-import fr.laposte.serca.u15.restructuration.object.Ligne;
+import restructuration.object.Ligne;
 /**
  * Classe contenant toutes les m�thodes de gestion et de modification des objets String manipul�s
  * dans l'application MASCADIA.

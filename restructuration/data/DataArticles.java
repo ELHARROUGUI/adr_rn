@@ -1,4 +1,4 @@
-package fr.laposte.serca.u15.restructuration.data;
+package restructuration.data;
 
 /**
  * Classe de donn�es statiques contenant tous les articles r�f�renc�s par le document webAdresse.doc

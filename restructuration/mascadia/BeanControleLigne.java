@@ -1,12 +1,12 @@
-package fr.laposte.serca.u15.restructuration.mascadia;
+package restructuration.mascadia;
 
 import java.util.Vector;
 
-import fr.laposte.serca.u15.restructuration.data.DataMotscles;
-import fr.laposte.serca.u15.restructuration.data.DataExtensions;
-import fr.laposte.serca.u15.restructuration.object.Mot;
-import fr.laposte.serca.u15.restructuration.object.Rubrique;
-import fr.laposte.serca.u15.restructuration.object.Ligne;
+import restructuration.data.DataMotscles;
+import restructuration.data.DataExtensions;
+import restructuration.object.Mot;
+import restructuration.object.Rubrique;
+import restructuration.object.Ligne;
 
 /**
  * @version 02.02.00

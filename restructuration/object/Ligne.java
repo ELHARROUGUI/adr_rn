@@ -1,12 +1,12 @@
-package fr.laposte.serca.u15.restructuration.object;
+package restructuration.object;
 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Vector;
 
-import fr.laposte.serca.u15.restructuration.data.DataMotscles;
-import fr.laposte.serca.u15.restructuration.data.DataNormalise;
-import fr.laposte.serca.u15.restructuration.mascadia.TraitementAdresse;
+import restructuration.data.DataMotscles;
+import restructuration.data.DataNormalise;
+import restructuration.mascadia.TraitementAdresse;
 
 /**
  * Classe permettant : <BR>
@@ -23,8 +23,8 @@ import fr.laposte.serca.u15.restructuration.mascadia.TraitementAdresse;
  * (String) <BR> - niveau 2 : m�thode travaillant sur la variable "Lr" (Vecteur
  * de rubriques)
  * 
- * @see fr.laposte.serca.u15.restructuration.object.Mot Mot
- * @see fr.laposte.serca.u15.restructuration.object.Rubrique Rubrique
+ * @see restructuration.object.Mot Mot
+ * @see restructuration.object.Rubrique Rubrique
  */
 public class Ligne {
 	private String chaine; // chaine de caract�re repr�sentant la ligne
@@ -93,7 +93,7 @@ public class Ligne {
 	 * 2 - normaliser la chaine <BR>
 	 * 3 - construit le vecteur Rubrique
 	 * 
-	 * @see fr.laposte.serca.u15.restructuration.data.DataNormalise DataNormalise
+	 * @see restructuration.data.DataNormalise DataNormalise
 	 */
 	public Ligne(String a_chaine, int num) {
 		numeroLigne = num;
@@ -1945,7 +1945,7 @@ public class Ligne {
 	 * Niveau 1 : Normalisation de la chaine. Tous les mots conbtenus dans le
 	 * tableau DataNormalise.data sont remplac�s par un synonime.
 	 * 
-	 * @see fr.laposte.serca.u15.restructuration.data.DataNormalise DataNormalise
+	 * @see restructuration.data.DataNormalise DataNormalise
 	 */
 	private void normaliseLigne() {
 		int index;

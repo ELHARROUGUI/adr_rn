@@ -1,4 +1,4 @@
-package fr.laposte.serca.u15.restructuration.data;
+package restructuration.data;
 
 /**
  * @version 02.02.00

@@ -1,4 +1,4 @@
-package fr.laposte.serca.u15.restructuration.mascadia;
+package restructuration.mascadia;
 
 /**
  * Classe statique traitant les lignes d'adresses et plus generalement les chaines de caractere.

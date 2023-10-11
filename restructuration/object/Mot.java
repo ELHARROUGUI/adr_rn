@@ -1,10 +1,10 @@
-package fr.laposte.serca.u15.restructuration.object;
+package restructuration.object;
 
-import fr.laposte.serca.u15.restructuration.data.DataAdjectifs;
-import fr.laposte.serca.u15.restructuration.data.DataArticles;
-import fr.laposte.serca.u15.restructuration.data.DataExtensions;
-import fr.laposte.serca.u15.restructuration.data.DataMotscles;
-import fr.laposte.serca.u15.restructuration.data.DataTitre;
+import restructuration.data.DataAdjectifs;
+import restructuration.data.DataArticles;
+import restructuration.data.DataExtensions;
+import restructuration.data.DataMotscles;
+import restructuration.data.DataTitre;
 
 /**
  * Classe permettant le stockage des diff�rents type de mot :

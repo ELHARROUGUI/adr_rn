@@ -1,4 +1,4 @@
-package fr.laposte.serca.u15.restructuration.object;
+package restructuration.object;
 
 import java.util.Vector;
 
