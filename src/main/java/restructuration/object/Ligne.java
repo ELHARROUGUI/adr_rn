@@ -80,12 +80,12 @@ public class Ligne {
 
 	// Caract�res autoris�s
 	//jpc on test sans (la methode trCharAllow n'etant pas utilis�e) 
-	private String authChar_L2_L3 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/-";
+	private String allowChar_L2_L3 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/-";
 	
 	// � partir de la version Mascadia 02.02.00 la L4 peut contenir le /
-	private String authChar_L4 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/-";
+	private String allowChar_L4 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/-";
 		
-	private String authChar_L5 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+	private String allowChar_L5 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
 	/**
 	 * Constructeur. Par d�faut il permet de <BR>
@@ -1909,8 +1909,8 @@ public class Ligne {
 		if ((this.numeroLigne == 2) || (this.numeroLigne == 3)) {
 			for (int i = 0; i < this.chaine.length(); i++) {
 				int flag = 0;
-				for (int j = 0; j < this.authChar_L2_L3.length(); j++) {
-					if (tmpChaine[i] == this.authChar_L2_L3.charAt(j))
+				for (int j = 0; j < this.allowChar_L2_L3.length(); j++) {
+					if (tmpChaine[i] == this.allowChar_L2_L3.charAt(j))
 						flag = 1;
 				}
 				if (flag == 0)
@@ -1919,8 +1919,8 @@ public class Ligne {
 		} else if (this.numeroLigne == 4) {
 			for (int i = 0; i < this.chaine.length(); i++) {
 				int flag = 0;
-				for (int j = 0; j < this.authChar_L4.length(); j++) {
-					if (tmpChaine[i] == this.authChar_L4.charAt(j))
+				for (int j = 0; j < this.allowChar_L4.length(); j++) {
+					if (tmpChaine[i] == this.allowChar_L4.charAt(j))
 						flag = 1;
 				}
 				if (flag == 0)
@@ -1929,8 +1929,8 @@ public class Ligne {
 		} else {
 			for (int i = 0; i < this.chaine.length(); i++) {
 				int flag = 0;
-				for (int j = 0; j < this.authChar_L5.length(); j++) {
-					if (tmpChaine[i] == this.authChar_L5.charAt(j))
+				for (int j = 0; j < this.allowChar_L5.length(); j++) {
+					if (tmpChaine[i] == this.allowChar_L5.charAt(j))
 						flag = 1;
 				}
 				if (flag == 0)
