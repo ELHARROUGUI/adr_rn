@@ -228,7 +228,7 @@ public class Mot{
 				}
 				//MCR
 				//La position n'est pas renseignee pour toutes les lignes
-				if (DataMotscles.tab[i][6] != "") {
+				if (!DataMotscles.tab[i][6].equals("")) {
 					this.position = Integer.parseInt(DataMotscles.tab[i][5]); 
 				}
 			 	return;

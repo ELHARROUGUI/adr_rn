@@ -1326,7 +1326,7 @@ public class Ligne {
 	 * pass� en param�tre.
 	 */
 	public boolean egal(Ligne L) {
-		if (getLigne().compareTo(L.getLigne()) != -1)
+		if (getLigne().compareTo(L.getLigne()) >= 0)
 			return true;
 		else
 			return false;
