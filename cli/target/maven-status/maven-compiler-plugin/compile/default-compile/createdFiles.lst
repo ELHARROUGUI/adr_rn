@@ -1,0 +1,14 @@
+restructuration\object\Ligne.class
+restructuration\Main.class
+restructuration\object\Ligne$1.class
+restructuration\data\DataArticles.class
+restructuration\util\StringUtils.class
+restructuration\data\DataMotscles.class
+restructuration\object\Mot.class
+restructuration\data\DataExtensions.class
+restructuration\data\DataAdjectifs.class
+restructuration\mascadia\BeanControleLigne.class
+restructuration\data\DataTitre.class
+restructuration\data\DataNormalise.class
+restructuration\mascadia\TraitementAdresse.class
+restructuration\object\Rubrique.class
