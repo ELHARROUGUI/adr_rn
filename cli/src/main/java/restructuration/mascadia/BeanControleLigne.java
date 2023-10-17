@@ -1354,7 +1354,7 @@ if (L4.getLigne() != null) {
 					// System.out.println("BCL.traitementAbreviationLigne5() :
 					// suppression des rubriques");
 					L5.supprimeRubrique(V);
-					if (V != null) {
+					if (V != null && !V.isEmpty()) {
 						// System.out.println("BCL.traitementAbreviationLigne5()
 						// : ajout des rubriques dans L4");
 						L4.ajouteRubrique(V, true); // cette methode doit
@@ -1442,7 +1442,7 @@ if (L4.getLigne() != null) {
 					// System.out.println("BCL.traitementAbreviationLigne4() :
 					// suppression des rubriques");
 					L4.supprimeRubrique(V);
-					if (V != null) {
+					if (V != null && !V.isEmpty()) {
 						// System.out.println("BCL.traitementAbreviationLigne4()
 						// : ajout des rubriques dans L3");
 						L3.ajouteRubrique(V, true); // cette methode doit
@@ -1543,7 +1543,7 @@ if (L4.getLigne() != null) {
 						return -2;
 					} else {
 						L3.supprimeRubrique(V);
-						if (V != null) {
+						if (V != null && !V.isEmpty()) {
 							L2.ajouteRubrique(V, true); // cette methode doit
 							// ajouter les rubriques
 							// restantes
