@@ -281,11 +281,11 @@ public class Ligne {
 		for(int i=0;i<L.size();i=i+1){
 			if(L.elementAt(i).getPoids()>0){
 				int poids = L.elementAt(i).getPoids();
-				while(tablePoids.get(new Integer(poids))!=null){
+				while(tablePoids.get(Integer.valueOf(poids))!=null){
 					poids = poids + 1;
 				}
 				L.elementAt(i).setPoids(poids);
-				tablePoids.put(new Integer(poids),new Integer(poids));
+				tablePoids.put(Integer.valueOf(poids),Integer.valueOf(poids));
 			}
 		}
 
