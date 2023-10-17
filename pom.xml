@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>restructuration</groupId>
-    <artifactId>cli</artifactId>
+    <artifactId>adr_rn</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
